@@ -1,30 +1,59 @@
-# 1)მომხმარებელს სთხოვეთ input-ის გამოყენებით შეიყვანოს თავისი სახელი და print-ის (output) გამოყენებით მიესალმეთ მას.
-# 2)კომენტარების სახით ახსენით რა არის კონკატენაცია (concatenation) და მოიყვანეთ შესაბამისი მაგალითი.
-# 3)შექმენით ორი ცვლადი, სადაც input ინსტრუქციით შეინახავთ მომხმარებლის სახელსა და გვარს. დაბეჭდეთ ისინი ერთ წინადადებაში კონკატენაციის (+) გამოყენებით.
-# 4)შექმენით ცვლადი, სთხოვეთ მომხმარებელს input-ით საყვარელი ფერის შეყვანა. შემდეგ კონკატენაციის გამოყენებით დაბეჭდეთ ტექსტი: "შენი საყვარელი ფერია " და მიუერთეთ შემოტანილი მნიშვნელობა.
-# 5)input-ის საშუალებით მომხმარებელს შემოატანინეთ 3 განსხვავებული სიტყვა სხვადასხვა ცვლადში. კონკატენაციის დახმარებით შეაერთეთ ეს სიტყვები ისე, რომ მიიღოთ ერთი სრული წინადადება (space)-ის გათვალისწინებით და დაბეჭდეთ.
-
+# 2) კომენტარების სახით ახსენით რა არის input-ი და output-ი, მოიყავნეთ შესაბამისი მაგალითები.
+# 3) კომენტარების სახით ახსენით რა არის snake_case წერის სტილი და როგორ ხდება ჩანაწერების გაკეთება.
+# 3) შექმენით ცვლადი, რომელშიც შეინხავთ input ინსტრუქციით შემოტანილ მნიშვნელობას, შემდეგ შეამოწმებთ თუ რა ტიპის მონაცემი ინახება ამ ცვლადში და დაბეჭდავთ.
+# 4) თიოთეული მონაცემთა ტიპისთვის (str,int,float), შექმენით 5 ცვლადი და დაუწერეთ კომენტარი თუ რომელ მონაცემთა ტიპს ინახავს ცვლადი.
+# 5) აიღეთ 3 ცვლადი, შეინახეთ განსხავებული მონაცემთა ტიპები (str,int,float), შემდეგ type ინსტრუქციის გამოყენებით შეამოწმეთ, თუ რომელ მონაცემთა ტიპს ინახავს ცვლადი.
+# 6) მომხმარებელს შემოატანინეთ ორი სიტყვა, შეინახეთ ისინი ცვლადებში, მოახდინეთ მათი კონკატინაცია და დაბეჭდეთ.
+# 7) მომხმარებელს შემოატანინეთ სახელი, გვარი, ასაკი, სიმაღლე, წონა და ამ მონაცემების გამოყენებით დაბეჭდეთ ერთი დიდი წინადადება.
 
 # 1)
-# name = input("enter your name")
-# print("gamarjoba",name)
+# input ი არის კოდის წერის გარემო სადაც მომხმარებელს შეგვიძლია მოვთხოვოთ ინფორმაციის შემოტანა
+# ხოლო Output ი არის უკვე შედეგი რასაც ჩვენ ვხედავთ 
 
-# 2)
-# კონკატენაცია არის როდესაც ორ სიტყვას ვაერთებთ ერთად ( ორზე მეტიც შეიძლება ) მაგალითად
-name = "tekla"
-lastname = "kapanadze"
-print("hallo your name is", name, "and you lastname is", lastname)
-
+# # 2)
+# snake_case სტილი კოდის წერის არის _ ესეთი ტირე რომელიც გამოიყენება ცვლადების შესაქმნელად
 # 3)
-name = input("what is your name")
-lastname = input("what is your name")
-print(name +" "+ lastname)
+# name = input("enter your name: ")
 
-# 4)
-color = input("what is your fav color?")
-print("your fav color is", color)
+# print(type(name))
+# # 4)
+# name = "fruit"        # str 
+# city = "tbilisi"       # str 
+# fruit = "apple"        # str
+# color = "red"       # str 
+# animal = "dog"       # str 
+
+
+# age = 15               # int 
+# score = 100            # int 
+# year = 2026            # int 
+# apples = 7             # int 
+# cars = 3               # int 
+
+
+# height = 1.75          # float 
+# weight = 60.5          # float 
+# price = 9.99           # float 
+# temperature = 23.4     # float 
 # 5)
-subject = "art"
-subject_2 = "sport"
-subject_3 = "history"
-print("my favorite subjects is" +" "+ subject+" "+subject_2+" "+"and"+" "+subject_3)
+
+# name = "TEKLA"
+# age = 11.11
+# qalaqsi_misasvleli_nomeri  = 22
+
+# print(type(name))
+# print(type(age))
+# print(type(qalaqsi_misasvleli_nomeri))
+
+# 6)
+# name = input("enter your name")
+# lastname = input("enter your lastname")
+# print("hallo my name is",name,"and my lastname is",lastname)
+
+# სახელი, გვარი, ასაკი, სიმაღლე, წონა
+name = input("enter your name")
+lastname = input("enter your lastname")
+height = input("enter your height")
+kg = input("enter your kg")
+
+print("hallo my name is",name,"and my lastname is",lastname,"my height is",height,"and my kg is",kg)
