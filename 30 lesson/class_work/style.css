@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+
+#p1 {
+    text-decoration: underline;
+    color: red;
+    text-shadow:  horizontal offset;
+}
+
+#p2 {
+    text-transform: uppercase;
+    text-transform: capitalize;
+
+
+
+
+}
+
+#p3 {
+    text-shadow: 3px 3px 3px rgb(255, 0, 0);
+}
+
+h1 {
+
+    text-align: 2px 2px 4px rgb(173, 0, 161);
+
+}
+
+
+
+p {
+    font-family: "Bitcount Prop Single", sans-serif;
+}
