@@ -1,0 +1,25 @@
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+
+a:active {
+    color: green;
+}
+
+th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #e5e5e5;
+}

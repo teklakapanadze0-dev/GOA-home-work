@@ -1,0 +1,67 @@
+/* table{
+    text-align: center;
+    font-size: 25px;
+}
+
+th, td {
+    border: 4px solid white;
+    padding: 15px;
+}
+
+th {
+    font-weight: bold;
+}
+
+.green {
+    background-color: chartreuse;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.orange {
+    background-color: darkgoldenrod;
+}
+
+.lightgreen {
+    background-color: darkseagreen;
+}
+
+.blue {
+    background-color: deepskyblue;
+}
+
+.purple {
+    background-color: darkmagenta;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.darkpurple {
+    background-color: slateblue;
+} */
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+}
+
+tr {
+    border-bottom: 1px solid lightgray;
+}
+
+tr:nth-child(2) {
+    background-color: lightgray;
+}
