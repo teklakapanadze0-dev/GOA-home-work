@@ -1,0 +1,217 @@
+ol {
+    list-style-type: upper-roman;
+    padding-left: 40px;
+}
+
+li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-image: url("icon.png");
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.form-box {
+    width: 800px;
+    min-height: 600px;
+
+    background-color: #eeeeee;
+
+    padding-top: 90px;
+
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #30345f;
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+
+form {
+    width: 395px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+textarea {
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    background-color: white;
+
+    border-radius: 30px;
+
+    padding: 15px 25px;
+
+    margin-bottom: 12px;
+
+    font-size: 13px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+
+    border-radius: 25px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #cfcfd5;
+}
+
+button {
+    margin-top: 7px;
+    padding: 14px 30px;
+
+    border: none;
+    border-radius: 30px;
+
+    background-color: #716cf0;
+    color: white;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5b56d8;
+    transform: scale(1.05);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.form {
+    width: 315px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 22px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+.tabs button {
+    width: 50%;
+    padding: 11px;
+
+    border: none;
+    background: white;
+
+    font-size: 15px;
+}
+
+.tabs .active {
+    background: #0876d1;
+    color: white;
+}
+
+input {
+    width: 100%;
+
+    padding: 11px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #0876d1;
+}
+
+.signup {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #0876d1;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.signup:hover {
+    background: #005ca8;
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+a {
+    color: #0876d1;
+    text-decoration: none;
+}
