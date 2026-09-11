@@ -1,0 +1,236 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: #dff7ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#menu {
+    font-size: 32px;
+}
+
+h1 {
+    color: #666;
+    font-size: 28px;
+}
+
+button {
+
+    border: none;
+
+    background-color: #3498db;
+    color: white;
+
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    height: 105px;
+    background-color: #f15b60;
+    border: 2px solid #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 25px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.rocket {
+    width: 32px;
+    height: 32px;
+
+    background-color: white;
+    color: #f15b60;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 5px;
+}
+
+.rocket i {
+    font-size: 20px;
+}
+
+#logo sup {
+    font-size: 9px;
+    margin-left: 2px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a i {
+    font-size: 13px;
+} */
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: #dff7ff;
+    border-top: 3px solid #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 37px;
+}
+
+h1 {
+    color: #666;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav span {
+    width: 2px;
+    height: 35px;
+    background-color: #999;
+}
+
+nav i {
+    font-size: 32px;
+    color: black;
+}
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: #dff7ff;
+    border: 2px solid #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 23px;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+#left i {
+    font-size: 32px;
+    color: black;
+}
+
+h1 {
+    color: #666;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+button {
+    width: 160px;
+    height: 43px;
+
+    border: none;
+    background-color: #3498db;
+    color: white;
+
+    font-size: 20px;
+}
