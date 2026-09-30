@@ -1,0 +1,15 @@
+body {
+    background-color: #666666;
+}
+
+.box {
+    width: 220px;
+    height: 150px;
+
+    background-color: #eeeeee;
+    padding: 45px;
+    border: 20px solid #aaaaaa;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+}

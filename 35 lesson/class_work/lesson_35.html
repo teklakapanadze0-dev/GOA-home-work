@@ -1,0 +1,89 @@
+!-- 1) შექმენით სია სადაც გექნებათ 5 სახელი და გასტილავთ ისე რომ სია იყოს დალაგებული რაიმე ფოტოთი
+2) კომენტარის სახით ახსენი როგორ გავსტილოთ კონკრეტული ტიპის ინფუთები
+3) გააკეთეთ მსგავში ფორმა -->
+
+
+<!-- 1 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <ol>
+        <li>
+            <span class="icon">person</span>
+            გიორგი
+        </li>
+
+        <li>
+            <span class="icon">face</span>
+            ნიკა
+        </li>
+
+        <li>
+            <span class="icon">star</span>
+            ლუკა
+        </li>
+
+        <li>
+            <span class="icon">favorite</span>
+            ანა
+        </li>
+
+        <li>
+            <span class="icon">account_circle</span>
+            მარიამი
+        </li>
+    </ol>
+
+</body>
+</html>
+
+<!-- 2 -->
+
+<!-- კონკრეტული ტიპის input ის გასასტილად ვიყენებთ input[type="ტიპი"]
+ სელექტორს და მასში ვწერთ სასურველ CSS სტილებს -->
+
+
+ <!-- 3 -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Online Registration Form</h1>
+
+        <form>
+            <label>Name</label>
+
+            <div class="name-inputs">
+                <input type="text" placeholder="First">
+                <input type="text" placeholder="Last">
+            </div>
+
+            <label>Email</label>
+            <input type="email">
+
+            <label>Phone</label>
+            <input type="tel" placeholder="### ### ####">
+
+            <label>Message</label>
+            <textarea></textarea>
+
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+
+</body>
+</html>

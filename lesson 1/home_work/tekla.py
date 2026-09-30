@@ -1,0 +1,20 @@
+# davaleba
+
+print("Tekla kapanadze")
+print("Dalu manaserovi")
+print("Andria mawavariani")
+print("andria kvashilava")
+print("gabriel mania")
+print("luka ustiashvili")
+print("nikoloz shalikashvili")
+print("giorgi andriashvili")
+print("sandro memarnishvili")
+print("davit chogadze")
+print("data boworishvili")
+print("ilia bokuchava")
+print("niko qutateladze")
+print("giorgi varantovi")
+
+print("giorgi varantovi"," niko qutateladze"," ilia bokuchava"," data boworishvili"," davit chogadze")
+print("sandro memarnishvili"," giorgi andriashvili"," nikoloz shalikashvili"," luka ustiashvili")
+print("gabriel mania"," andria kvashilava"," Andria mawavariani"," Andria mawavariani"," Dalu manaserovi"," Tekla kapanadze")

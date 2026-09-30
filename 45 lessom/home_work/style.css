@@ -1,0 +1,12 @@
+
+body {
+    background-image: url("https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6jbT0i7Bw80k9EU6jkrbBYvVgXUZyUXHTSWEAcTGhSqR7ygSqajIIA_w&s=10.jpg");
+    background-size: 200px 200px;
+    background-repeat: repeat;
+}

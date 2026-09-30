@@ -1,0 +1,65 @@
+/* .box1 {
+    background-color: rgb(139, 114, 114);
+    width: 200px;
+    height: 100px;
+}
+
+.box2 {
+    background-color: rgb(181, 239, 181);
+    width: 150px;
+    height: 150px;
+}
+
+.box3 {
+    background-color: rgb(74, 74, 96);
+    width: 250px;
+    height: 120px;
+} */
+
+
+
+
+/* h1 {
+    color: #3498db;
+    font-size: 40px;
+} */
+
+
+/* .rgb {
+    color: rgb(64, 255, 252);
+}
+
+.hex {
+    color: #333375;
+} */
+
+
+
+
+body {
+    background-color: #eeeeee;
+}
+
+h1 {
+    color: rgb(255, 100, 0);
+    font-size: 45px;
+
+}
+
+p {
+    color: #333333;
+    font-size: 20px;
+}
+
+div {
+    background-color: rgb(200, 255, 200);
+    width: 300px;
+    height: 150px;
+
+}
+
+h2 {
+    color: #006600;
+    font-size: 30px;
+
+}

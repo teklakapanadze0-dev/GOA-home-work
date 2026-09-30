@@ -1,0 +1,55 @@
+body {
+    background-color: #eeeeee;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #ffffff;
+    color: #d71920;
+    padding: 25px;
+    margin: 10px auto 30px;
+    border: 3px solid #d71920;
+
+}
+
+.box {
+    background-color: white;
+    width: 70%;
+    padding: 25px;
+    margin: 20px auto;
+    border: 3px solid #d71920;
+
+}
+
+.box h2 {
+    color: #d71920;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+
+.box1 {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+
+.box2 {
+    background-color: lightgreen;
+    margin: 40px;
+}
+
+.box3 {
+    background-color: pink;
+    margin: 30px;
+    padding: 25px;
+}

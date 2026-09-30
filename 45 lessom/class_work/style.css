@@ -1,0 +1,17 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100px;
+    height: 100px;
+
+    background-image: url("https://bentocakesnoida.in/cdn/shop/files/2023_10_29_14_39_IMG_8873.jpg?v=1719813312&width={width}");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}

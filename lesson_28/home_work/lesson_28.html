@@ -1,0 +1,141 @@
+<!-- 2) შექმენი main div, რომელშიც გექნება h1, ჩვეულებრივი p ტექსტი და 
+კიდევ ერთი შიდა div თავისი p ტექსტით. descendant selector-ის გამოყენებით,
+ main div-ის შიგნით არსებულ h1-ს შეუცვალე color მწვანედ, ხოლო შიდა div-ში
+  მდებარე p ტექსტს მიეცი background-color ყვითელი, ისე რომ სხვა ტექსტები არ შეიცვალოს.
+
+3) შექმენი div, რომელშიც გექნება ტექსტი (p) და button. მთლიან div-ს მიეცი
+ color და font-family, რათა დაინახო, როგორ გადადის ეს სტილები შვილობილ
+  p ტექსტზე მემკვიდრეობით. ამის შემდეგ, თავად button-ს დაუწერე ახალი
+   background-color და color, რომ არ გაჰყვეს მშობლის სტილს.
+
+4) შექმენი საიტის ერთი უნიკალური სექცია (id-ით) და ორი ერთნაირი ღილაკი
+ (class-ებით). ID-ს გამოყენებით შეუცვალე უნიკალურ სექციას background-color,
+  ხოლო class-ების დახმარებით ერთ button-ს მიეცი ლურჯი ფონი, მეორეს კი ნაცრისფერი.
+
+5) შექმენი ერთნაირი კლასის მქონე ორი p ელემენტი, მაგრამ ერთ-ერთ მათგანს დაუმატე 
+უნიკალური id. CSS-ში დაწერე class სელექტორით გაწერილი color და ცალკე id
+ სელექტორით გაწერილი color. დააკვირდი, რომელი ფერი მიენიჭება თითოეულ
+  პარაგრაფს და ახსენი, როგორ მუშაობს specificity ამ შემთხვევაში.
+ -->
+
+<!-- 1 -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+    <h1>სათაური</h1>
+
+    <p>ეს არის პირველი პარაგრაფი</p>
+
+    <div class="box">
+        <p>ეს არის შიდა div ის პარაგრაფი</p>
+    </div>
+</div>
+
+<p>ეს არის main div ის გარეთ არსებული პარაგრაფი</p>
+
+</body>
+</html> -->
+
+<!-- css -->
+
+<!-- .main h1 {
+    color: green;
+}
+
+.main .box p {
+    background-color: yellow;
+} -->
+
+<!-- 2 -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+    <p>ეს არის ტექსტი</p>
+    <button>დამაჭირე</button>
+</div>
+
+</body>
+</html> -->
+
+<!-- css -->
+<!-- .box {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: green;
+    color: white;
+} -->
+
+<!-- 3 -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="section">
+    <h2>უნიკალური სექცია</h2>
+
+    <button class="blue-btn">ღილაკი 1</button>
+    <button class="gray-btn">ღილაკი 2</button>
+</div>
+
+</body>
+</html> -->
+
+<!-- css -->
+
+<!-- #section {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.blue-btn {
+    background-color: blue;
+    color: white;
+}
+
+.gray-btn {
+    background-color: gray;
+    color: white;
+} -->
+
+<!-- 4 -->
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<p class="text">პირველი პარაგრაფი</p>
+
+<p class="text" id="special">მეორე პარაგრაფი</p>
+
+</body>
+</html> -->
+
+<!-- css -->
+<!-- 
+.text {
+    color: blue;
+}
+
+#special {
+    color: red;
+} -->
