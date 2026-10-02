@@ -1,0 +1,44 @@
+<!-- grid არის Css ის მეთოდი რომლითაც ელემენტებს გვერდზე მარტივად ვალაგებთ -->
+
+<!-- 2 -->
+<!-- grid-template-columns კუთვნილება, რომელიც გამოიყენება იმისთვის რომ grid განლაგებაში განვსაზღვროთ თუ რამდენი და რა ზომის სვეტები გვინდა რომ გვქონდეს. -->
+
+<!-- grid-template-rows კუთვნილება, რომელიც გამოიყენება იმისთვის რომ grid განლაგებაში განვსაზღვროთ თუ რამდენი და რა ზომის რიგი გვინდა რომ გვქონდეს.
+
+grid-template კუთვნილება, რომელიც გამოიყენება იმისთვის რომ grid განლაგებაში განვსაზღვროთ თუ რამდენი და რა ზოსმიდ რიგები და სვეტები გვინდა გვქონდეს (grid-template-columns-ის და grid-template-rows-ის კომბინირებული კუთვნილება)
+
+Example ==>
+
+grid-template: grid-template-rows / grid-template-comlumns;
+
+fr - fractional unit | grid-ის განლგაბეისთვის განკუთვნილი სპეციალური საზომი ერთეული, რომელიც გამოიყენება იმისთვის რომ პროპორციულად გავყოთ სივრცე ელემენტებს შორის და შესაბამისად განვსაზღვროთ column-ების და row-ების სიგრძე / სიგანეები -->
+
+<!-- 3 -->
+<!-- 
+height = 1000px rows = 2 1fr 500px
+height = 1900px rows = 10 1fr 190px
+height = 300px rows = 9 1fr 33.3px -->
+
+<!-- 4 -->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">D</div>
+        <div class="card">A</div>
+        <div class="card">F</div>
+
+        <div class="card">E</div>
+        <div class="card">B</div>
+        <div class="card">C</div>
+    </div>
+
+</body>
+</html>

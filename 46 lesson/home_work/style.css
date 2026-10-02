@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+} 
+
+/* gridis magaliti */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    display: grid;
+    gap: 26px;
+}
+
+.card {
+    height: 173px;
+    background-color: #444444;
+    color: white;
+
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+}
+
