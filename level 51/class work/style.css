@@ -1,0 +1,32 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 192, 235);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 1 /
+
+.a {
+    transform: translate(60px, 20px);
+}
+
+/ 2 /
+
+.b {
+    transform: scale(1.5);
+}
+
+/ 3 /
+
+.c {
+    transform: skew(30deg);
+}
+
+/ 4 */
+.d {
+    transform: rotate(45deg);
+}

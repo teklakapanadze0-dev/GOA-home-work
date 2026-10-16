@@ -1,0 +1,38 @@
+.t {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 139, 211);
+}
+
+.t:hover {
+    transform: translate(200px, 150px);
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.b:hover {
+    transform: scale(2.5);
+}
+
+.c {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.c:hover {
+    transform: skew(30deg, 45deg);
+}
+.d {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.d:hover {
+    transform: rotate(125deg);
+}
