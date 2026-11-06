@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#a {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 172, 255);
+  animation-name: firstAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes firstAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(22.5deg);
+  }
+
+  100% {
+    transform: rotate(45deg);
+  }
+}
